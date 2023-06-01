@@ -9,6 +9,7 @@ custom:
       <<: *basic-cluster-props
       num_workers: 1
       node_type_id: "i3.xlarge"
+      policy_id: "E060384AFC00043E"
 
 environments:
   default:
