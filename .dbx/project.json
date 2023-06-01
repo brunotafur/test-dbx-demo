@@ -1,0 +1,15 @@
+{
+    "environments": {
+        "default": {
+            "profile": "--eng-west",
+            "storage_type": "mlflow",
+            "properties": {
+                "workspace_directory": "/Users/bruno.tafur@databricks.com/teest_dbx_demo_folder",
+                "artifact_location": "dbfs:/Users/bruno.tafur@databricks.com/projects/test_dbx_demo_artifacts"
+            }
+        }
+    },
+    "inplace_jinja_support": false,
+    "failsafe_cluster_reuse_with_assets": false,
+    "context_based_upload_for_execute": false
+}
