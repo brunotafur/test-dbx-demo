@@ -16,7 +16,7 @@ LOCAL_REQUIREMENTS = [
     "pyspark==3.2.1",
     "delta-spark==1.1.0",
     "scikit-learn",
-    "pandas",
+    "pandas==1.5.3",
     "mlflow",
 ]
 
