@@ -37,7 +37,7 @@ jobs:
 
       - name: Deploy the workflow as a job
         run: |
-          dbx deploy test-dbx-demo-sample-etl
+          dbx deploy test-dbx-demo-sample-multitask
 
       - name: Create Release
         id: create_release
