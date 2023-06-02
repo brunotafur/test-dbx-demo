@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - '**'
-    tags-ignore:  
+    tags-ignore:
       - 'v*' # this tag type is used for release pipelines
 
 jobs:
@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       max-parallel: 4
+
     env:
       DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
       DATABRICKS_TOKEN:  ${{ secrets.DATABRICKS_TOKEN }}
